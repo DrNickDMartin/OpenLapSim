@@ -4,7 +4,6 @@
 name: openLapSim
 dependencies:
 - python>=3.6
-- colorama
 - cython
 - h5py
 - jupyter
@@ -17,3 +16,4 @@ dependencies:
   - mpi4py
   - terminaltables
   - tqdm
+  - jsonpickle
