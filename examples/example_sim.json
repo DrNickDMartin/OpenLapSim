@@ -1,0 +1,14 @@
+{
+    "header" :
+    {
+        "type" : "Simulation File",
+        "author" : "Nick Martin",
+        "date" : "01/04/2018",
+        "version" : "1"
+    },
+    "simulation" :
+    {
+        "vehicle_setup": "setups/example1.json",
+        "aeromap": "aeromaps/map1.json"
+    }
+}

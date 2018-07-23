@@ -35,11 +35,13 @@ def main():
     print()
 
     parser = argparse.ArgumentParser(prog='OpenLapSim', formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    parser.add_argument('simulation file', help='this is the full path of the file describing the vehicle')
+    parser.add_argument('-sim file',
+                        help='this is the full path of the file describing how to run the sumulation',
+                        default='examples/example_sim.json')
 
     run(parser.parse_args())
 
-def run():
+def run(args):
 
     print(args)
 
