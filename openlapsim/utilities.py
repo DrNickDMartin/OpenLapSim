@@ -25,6 +25,19 @@
 # along with openLapSim.  If not, see <http://www.gnu.org/licenses/>
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-VERSION = (0, 0, 1)
+from openlapsim import __version__
 
-__version__ = '.'.join(map(str, VERSION))
+
+def logo():
+    """Print the OpenLapSim logo, version and copywrite informaiton"""
+
+    logo = r""" https://drnickdmartin.github.io/OpenLapSim/
+   ____                   __               _____ _         
+  / __ \____  ___  ____  / /   ____ _____ / ___/(_)___ ___ 
+ / / / / __ \/ _ \/ __ \/ /   / __ `/ __ \\__ \/ / __ `__ \
+/ /_/ / /_/ /  __/ / / / /___/ /_/ / /_/ /__/ / / / / / / /
+\____/ .___/\___/_/ /_/_____/\__,_/ .___/____/_/_/ /_/ /_/ 
+    /_/                          /_/                       
+    v""" + __version__.__version__
+
+    print(logo)

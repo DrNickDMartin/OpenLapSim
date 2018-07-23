@@ -25,6 +25,7 @@
 # along with openLapSim.  If not, see <http://www.gnu.org/licenses/>
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-VERSION = (0, 0, 1)
+from openlapsim import utilities
 
-__version__ = '.'.join(map(str, VERSION))
+def main():
+    utilities.logo()
