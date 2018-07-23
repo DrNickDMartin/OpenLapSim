@@ -1,0 +1,19 @@
+# This file may be used to create a conda environment using:
+# $ conda create --name gprMax --file <this file>
+
+name: openLapSim
+dependencies:
+- python>=3.6
+- colorama
+- cython
+- h5py
+- jupyter
+- matplotlib
+- numpy
+- psutil
+- scipy
+
+- pip:
+  - mpi4py
+  - terminaltables
+  - tqdm
