@@ -33,5 +33,5 @@ class Simulation(object):
         self.setup = setup
         self.tajectory = trajectory
         
-    def run():
+    def run(self):
         print("Running simulation...")
